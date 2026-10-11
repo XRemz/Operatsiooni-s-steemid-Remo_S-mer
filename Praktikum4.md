@@ -1,3 +1,5 @@
+Praktikumis õppisin tegema windowsile erinevate õigustega kasutajaid. Üldiselt oli praktikum huvitav, olen vahest mõelnud, et kuidas saab olla ühes arvutis mitu kasutajat, kes mängivad kõik erinevaid rolle kuid nüüd sain seda omal käel katsetada.
+
 4.4 Admin ja system privileegid. Registri kaitstud harude muutmine: Näiteks registriharu HKEY_LOCAL_MACHINE\SECURITY või HKEY_LOCAL_MACHINE\SAM avamine ja muutmine. Administraatoril puudub neile kaartidele vaikimisi isegi lugemisõigus ja operatsioonisüsteem blokeerib ligipääsu.
 Milleks systemi vaja? Windowsi kriitiliste süsteemiteenuste ja protsesside peatamine: Mõningaid operatsioonisüsteemi kaitstud protsesse (nt csrss.exe või lsass.exe) ega turvateenuseid ei saa Administraator Task Managerist ega käsurealt sulgeda, sest neid hallatakse ainult SYSTEM-õigustes.
 
